@@ -16,11 +16,22 @@
     color: #fff;
     font-weight: 800;
   }
+  .btn-primary:hover {
+    background: linear-gradient(90deg, #9873ff, #7e90fe);
+  }
+  .btn-primary:active {
+    transform: scale(95%);
+  }
   .text-primary {
     color: #1a1919;
   }
   .text-secondary {
     color: #474747;
+  }
+
+  .banner {
+    background-position: bottom left, top right;
+    height: 400px;
   }
 
   @media (hover: none) {
