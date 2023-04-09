@@ -1,7 +1,12 @@
 import React from "react";
+import Banner from "../components/Banner";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <section className="container mx-auto p-4">
+      <Banner />
+    </section>
+  );
 };
 
 export default Home;

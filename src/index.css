@@ -25,7 +25,7 @@
 
   @media (hover: none) {
     * {
-      cursor: default;
+      cursor: default !important;
     }
   }
 }
