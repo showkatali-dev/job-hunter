@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Account & Finance",
+    "image": "images/accounts.png",
+    "availability": 286
+  },
+  {
+    "id": 2,
+    "name": "Creative Design",
+    "image": "images/business.png",
+    "availability": 140
+  },
+  {
+    "id": 3,
+    "name": "Marketing & Sales",
+    "image": "images/social-media.png",
+    "availability": 200
+  },
+  {
+    "id": 4,
+    "name": "Engineering Job",
+    "image": "images/chip.png",
+    "availability": 220
+  }
+]

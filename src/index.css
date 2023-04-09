@@ -5,8 +5,8 @@
 @layer components {
   body {
     color: #757575;
-    background-color: #f9f9ff;
     font-family: "Manrope", sans-serif;
+    font-weight: 500;
   }
 
   .btn-primary {
