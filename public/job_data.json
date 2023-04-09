@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google LLC",
+    "remoteOrOnsite": "Remote",
+    "location": "Anywhere",
+    "fullOrPartTime": "Full Time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "We're looking for an experienced software engineer to join our team and help build cutting-edge software products.",
+    "jobResponsibility": "Develop new features and functionality for our software products. Collaborate with other engineers and designers to ensure our products are the best they can be.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or a related field",
+    "experience": "At least 3 years of experience in software engineering",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fullOrPartTime": "Full Time",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We're looking for a marketing manager to lead our marketing team and help us grow our brand.",
+    "jobResponsibility": "Develop and execute marketing campaigns across multiple channels. Work with our sales team to generate leads and close deals. Manage our social media presence and email marketing campaigns.",
+    "educationalRequirement": "Bachelor's or Master's degree in Marketing or a related field",
+    "experience": "At least 5 years of experience in marketing",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/woodland-gardening-amazon-png-logo-vector-8.png",
+    "jobTitle": "Sales Representative",
+    "companyName": "Amazon",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fullOrPartTime": "Full Time",
+    "salary": "$50,000 - $70,000",
+    "jobDescription": "We're looking for a sales representative to join our team and help us grow our business.",
+    "jobResponsibility": "Generate leads and close deals with new and existing clients. Develop relationships with key stakeholders and decision-makers. Work closely with our marketing and product teams to understand customer needs and preferences.",
+    "educationalRequirement": "Bachelor's degree in Business or a related field",
+    "experience": "At least 2 years of experience in sales",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://www.freepnglogos.com/uploads/microsoft-logo-4.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Microsoft",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fullOrPartTime": "Full Time",
+    "salary": "$60,000 - $80,000",
+    "jobDescription": "We're looking for a talented graphic designer to help us create beautiful and engaging visual content.",
+    "jobResponsibility": "Design marketing materials such as banners, social media graphics, and email templates. Collaborate with our marketing and product teams to create visual designs for our products. Stay up-to-date on design trends and best practices.",
+    "educationalRequirement": "Bachelor's degree in Graphic Design or a related field",
+    "experience": "At least 3 years of experience in graphic design",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://www.freepnglogos.com/uploads/netflix-logo-0.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Remote",
+    "location": "Anywhere",
+    "fullOrPartTime": "Full Time",
+    "salary": "$90,000 - $110,000",
+    "jobDescription": "We're looking for a product manager to help us develop and launch new products and features.",
+    "jobResponsibility": "Work with our engineering and design teams to define product features and specifications. Collaborate with our marketing and sales teams to create go-to-market strategies. Analyze market trends and customer feedback to make data-driven decisions.",
+    "educationalRequirement": "Bachelor's degree in Business, Computer Science, or a related field",
+    "experience": "At least 5 years of experience in product management",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png",
+    "jobTitle": "Human Resources Manager",
+    "companyName": "Google",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fullOrPartTime": "Full Time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "We're looking for an experienced HR manager to lead our HR team and help us attract and retain top talent.",
+    "jobResponsibility": "Develop and implement HR policies and procedures. Manage recruiting and onboarding processes. Oversee employee benefits and compensation packages. Provide guidance and support to managers and employees on HR-related issues.",
+    "educationalRequirement": "Bachelor's or Master's degree in Human Resources or a related field",
+    "experience": "At least 7 years of experience in HR, with 3 years in a management role",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 7,
+    "companyLogo": "https://www.freepnglogos.com/uploads/youtube-logo-png-transparent-background-download-3.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Youtube",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fullOrPartTime": "Full Time",
+    "salary": "$120,000 - $150,000",
+    "jobDescription": "We're looking for a talented software engineer to help us build and maintain our web and mobile applications.",
+    "jobResponsibility": "Design, develop, and test new features for our applications. Collaborate with our product and design teams to ensure our applications are user-friendly and meet our customers' needs. Maintain and improve our existing codebase.",
+    "educationalRequirement": "Bachelor's or Master's degree in Computer Science or a related field",
+    "experience": "At least 5 years of experience in software engineering",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  },
+  {
+    "id": 8,
+    "companyLogo": "https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Facebook",
+    "remoteOrOnsite": "Remote",
+    "location": "Anywhere",
+    "fullOrPartTime": "Part Time",
+    "salary": "$40 - $60 per hour",
+    "jobDescription": "We're looking for a data analyst to help us analyze and interpret large datasets and provide insights to our team.",
+    "jobResponsibility": "Collect and analyze data from various sources. Create reports and visualizations to help stakeholders understand the data. Identify trends and provide recommendations based on data analysis.",
+    "educationalRequirement": "Bachelor's or Master's degree in Data Science, Statistics, or a related field",
+    "experience": "At least 2 years of experience in data analysis",
+    "contactInformation": {
+      "phone": "01750-00 00 00",
+      "email": "info@gmail.com"
+    }
+  }
+]
