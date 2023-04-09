@@ -1,5 +1,6 @@
 import React from "react";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import AppliedJobs from "./pages/AppliedJobs";
 import Blogs from "./pages/Blogs";
 import ErrorPage from "./pages/ErrorPage";
@@ -10,7 +11,9 @@ import Statistics from "./pages/Statistics";
 const Layout = () => {
   return (
     <>
-      <header></header>
+      <header>
+        <Navbar />
+      </header>
       <main>
         <Outlet />
       </main>

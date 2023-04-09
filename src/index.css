@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    color: #757575;
+    background-color: #f9f9ff;
+    font-family: "Manrope", sans-serif;
+  }
+
+  .btn-primary {
+    background: linear-gradient(90deg, #7e90fe, #9873ff);
+    border-radius: 0.5rem;
+    padding: 19px 28px;
+    color: #fff;
+    font-weight: 800;
+  }
+  .text-primary {
+    color: #1a1919;
+  }
+  .text-secondary {
+    color: #474747;
+  }
+
+  @media (hover: none) {
+    * {
+      cursor: default;
+    }
+  }
+}
+
+@layer base {
+  .text-linear {
+    @apply text-transparent bg-clip-text bg-gradient-to-t from-[#7E90FE] to-[#9873FF];
+  }
+
+  .mobile-nav-link {
+    @apply w-full rounded-md px-4 py-2;
+  }
+  .mobile-nav-link.active {
+    @apply bg-black/10 text-[#7E90FE];
+  }
+}
