@@ -1,8 +1,15 @@
 import React from "react";
-import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Outlet,
+  RouterProvider,
+  createBrowserRouter,
+  useNavigation,
+} from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Spinner from "./components/Spinner";
 import AppliedJobs from "./pages/AppliedJobs";
 import Blogs from "./pages/Blogs";
 import ErrorPage from "./pages/ErrorPage";
@@ -12,15 +19,17 @@ import Statistics from "./pages/Statistics";
 import { getLocalStorageData } from "./utilities/fakedb";
 
 const Layout = () => {
+  const navigation = useNavigation();
+
   return (
     <>
       <header>
         <Navbar />
       </header>
-      <main>
-        <Outlet />
-      </main>
-      <footer></footer>
+      <main>{navigation.state === "loading" ? <Spinner /> : <Outlet />}</main>
+      <footer>
+        <Footer />
+      </footer>
       <ToastContainer />
     </>
   );
@@ -47,6 +56,7 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+        loader: () => fetch("../assignment_marks.json"),
       },
       {
         path: "/applied-jobs",

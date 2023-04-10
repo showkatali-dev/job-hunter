@@ -25,7 +25,7 @@ const AppliedJobs = () => {
       >
         <h1 className="text-3xl font-bold text-primary">Applied Jobs</h1>
       </div>
-      <div className="container mx-auto p-4 my-12 text-right">
+      <div className="container mx-auto p-4 my-8 text-right">
         {/* filter */}
         <div className="inline-flex bg-white border rounded-md">
           <div className="relative">
