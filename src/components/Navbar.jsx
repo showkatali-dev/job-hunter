@@ -12,7 +12,7 @@ const Navbar = () => {
           <h2 className="text-3xl font-bold text-primary">JobHunter</h2>
 
           {/* for larger device */}
-          <div className="hidden md:flex items-center gap-x-6">
+          <div className="hidden md:flex font-semibold items-center gap-x-6">
             <NavLink
               to="/"
               className={({ isActive }) => (isActive ? "text-linear" : "")}
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/* for mobile device */}
         <div
-          className={`flex-col md:hidden items-start rounded gap-y-2 bg-gray-100 border p-4 absolute z-50 top-0 left-0 w-full ${
+          className={`flex-col md:hidden items-start font-semibold rounded gap-y-2 bg-gray-100 border p-4 absolute z-50 top-0 left-0 w-full shadow-lg ${
             openMenu ? "flex" : "hidden"
           }`}
         >

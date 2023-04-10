@@ -6,19 +6,19 @@ import bg1 from "../assets/images/Vector.png";
 const questions = [
   {
     qn: "When should you use context API?",
-    ans: "Props are immutable which let React do fast reference check, whereas state is mutable and it can be managed in our view control. Props have better performance and state has worse performance. We use props to pass data to child component and use state to pass it down with props instead.",
+    ans: "We should use context API, when we have data that needs to be accessed by many components and we want to avoid props drilling in our application.",
   },
   {
     qn: "What is a custom hook?",
-    ans: "useState is a react hook. It returns an array with two value. One is the current state and another is the function to update this state. It takes an initial value as argument and return an update state value whenever the setter function is called.",
+    ans: "A custom hook is a function that uses react's built-in hook (such as 'useState', 'useEffect' etc) to provide some reusable logic, that allow us to extract common logic from our component into a separate function. It makes our code more reusable and easier.",
   },
   {
     qn: "What is useRef?",
-    ans: "useEffect is a react hook that allows us to perform side effects in our component. The purpose of useEffect is fetching data as well as direct DOM updates, performing different types of add event listener and also timer related function.",
+    ans: "'useRef' is a react hook that is used to store a value that persists across re-renders of a component. It is a mutable ref. Most of the case, we use it to reference a DOM element or store a value.",
   },
   {
     qn: "What is useMemo?",
-    ans: "React is a javascript library that is used for building user interface. It works by creating a virtual representation of user interface called Virtual DOM, which allows React to efficiently update and render changes in response to user interaction and data changes.",
+    ans: "'useMemo is a react hook that allows us to memoize expensive calculations so that they are only re-computed when their dependencies change. This can help to optimize the performance of our components by avoiding unnecessary re-calculations.",
   },
 ];
 
@@ -31,7 +31,7 @@ const Blogs = () => {
   return (
     <section>
       <div
-        className="banner h-72 md:h-80 lg:h-96 flex justify-center items-center"
+        className="banner bg-[#F9F9FF] h-72 md:h-80 lg:h-96 flex justify-center items-center"
         style={{ backgroundImage: `url(${bg1}), url(${bg2})` }}
       >
         <h1 className="text-3xl font-bold text-primary">Blog</h1>
