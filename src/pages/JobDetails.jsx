@@ -16,6 +16,7 @@ const JobDetails = () => {
     id,
     jobTitle,
     salary,
+    status,
     jobDescription,
     jobResponsibility,
     educationalRequirement,
@@ -60,7 +61,7 @@ const JobDetails = () => {
             <p>
               <HiOutlineCurrencyDollar className="text-lg inline mr-1" />
               <span className="text-secondary font-semibold mr-2">Salary:</span>
-              {salary} (Per Year)
+              {salary} {status === "Full Time" && "(Per Year)"}
             </p>
             <p>
               <HiOutlineCalendar className="text-lg inline mr-1" />
