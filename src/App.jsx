@@ -1,5 +1,7 @@
 import React from "react";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import AppliedJobs from "./pages/AppliedJobs";
 import Blogs from "./pages/Blogs";
@@ -7,6 +9,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import JobDetails from "./pages/JobDetails";
 import Statistics from "./pages/Statistics";
+import { getLocalStorageData } from "./utilities/fakedb";
 
 const Layout = () => {
   return (
@@ -18,6 +21,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer></footer>
+      <ToastContainer />
     </>
   );
 };
@@ -47,6 +51,12 @@ const router = createBrowserRouter([
       {
         path: "/applied-jobs",
         element: <AppliedJobs />,
+        loader: async () => {
+          const localStorageData = getLocalStorageData();
+          const res = await fetch("../job_data.json");
+          const data = await res.json();
+          return data.filter((job) => localStorageData.includes(job.id));
+        },
       },
       {
         path: "/blog",

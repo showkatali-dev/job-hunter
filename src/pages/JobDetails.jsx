@@ -8,17 +8,13 @@ import {
 import { useLoaderData } from "react-router-dom";
 import bg2 from "../assets/images/Vector-1.png";
 import bg1 from "../assets/images/Vector.png";
+import { addTodb } from "../utilities/fakedb";
 
 const JobDetails = () => {
   const job = useLoaderData();
   const {
     id,
-    companyLogo,
     jobTitle,
-    companyName,
-    type,
-    status,
-    location,
     salary,
     jobDescription,
     jobResponsibility,
@@ -90,7 +86,12 @@ const JobDetails = () => {
             </p>
           </div>
 
-          <button className="w-full btn-primary mt-6">Apply Now</button>
+          <button
+            onClick={() => addTodb(id)}
+            className="w-full btn-primary mt-6"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </section>

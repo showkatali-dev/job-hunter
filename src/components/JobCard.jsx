@@ -39,7 +39,7 @@ const JobCard = ({ job }) => {
           {location}
         </p>
         <p>
-          <HiOutlineCurrencyDollar className="text-lg inline mr-2" />
+          <HiOutlineCurrencyDollar className="text-lg inline mr-2" /> Salary:{" "}
           {salary}
         </p>
       </div>
