@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="absolute top-0 left-0 right-0">
       <div className="container mx-auto p-4 relative">
         <div className="flex items-center justify-between">
-          <h2 className="text-3xl font-bold text-primary">JobHunter</h2>
+          <h2 className="text-3xl font-bold text-primary cursor-pointer">
+            <Link to="/">JobHunter</Link>
+          </h2>
 
           {/* for larger device */}
           <div className="hidden md:flex font-semibold items-center gap-x-6">
