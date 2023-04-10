@@ -59,12 +59,12 @@ const JobDetails = () => {
             <h3 className="text-xl text-primary font-bold">Job Details</h3>
             <hr />
             <p>
-              <HiOutlineCurrencyDollar className="text-lg inline mr-1" />
+              <HiOutlineCurrencyDollar className="text-lg text-[#7E90FE]/80 inline mr-1" />
               <span className="text-secondary font-semibold mr-2">Salary:</span>
               {salary} {status === "Full Time" && "(Per Year)"}
             </p>
             <p>
-              <HiOutlineCalendar className="text-lg inline mr-1" />
+              <HiOutlineCalendar className="text-lg text-[#7E90FE]/80 inline mr-1" />
               <span className="text-secondary font-semibold mr-2">
                 Job Title:
               </span>
@@ -76,12 +76,12 @@ const JobDetails = () => {
             </h3>
             <hr />
             <p>
-              <HiOutlinePhone className="text-lg inline mr-1" />
+              <HiOutlinePhone className="text-lg text-[#7E90FE]/80 inline mr-1" />
               <span className="text-secondary font-semibold mr-2">Phone:</span>
               {contactInformation.phone}
             </p>
             <p>
-              <HiOutlineMail className="text-lg inline mr-1" />
+              <HiOutlineMail className="text-lg text-[#7E90FE]/80 inline mr-1" />
               <span className="text-secondary font-semibold mr-2">Email:</span>
               {contactInformation.email}
             </p>

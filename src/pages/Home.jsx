@@ -5,7 +5,7 @@ import JobCategory from "../components/JobCategory";
 
 const Home = () => {
   return (
-    <section className="container mx-auto p-4">
+    <section>
       <Banner />
       <JobCategory />
       <FeaturedJobs />

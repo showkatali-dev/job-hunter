@@ -11,7 +11,7 @@ const JobCategory = () => {
   }, []);
 
   return (
-    <div className="text-center my-24">
+    <div className="container p-4 mx-auto text-center my-24">
       <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
         Job Category List
       </h1>

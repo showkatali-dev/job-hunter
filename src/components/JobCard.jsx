@@ -33,7 +33,7 @@ const JobCard = ({ job }) => {
         </div>
       </div>
 
-      <div className="flex items-center justify-start gap-x-6">
+      <div className="flex flex-wrap gap-x-6">
         <p>
           <HiOutlineLocationMarker className="text-lg inline mr-2" />
           {location}

@@ -81,11 +81,17 @@ const AppliedJobs = () => {
         </div>
 
         {/* applied jobs */}
-        <div className="text-start my-10 grid gap-y-6">
-          {jobs.map((job) => (
-            <AppliedJobCard key={job.id} job={job} />
-          ))}
-        </div>
+        {jobs.length > 0 ? (
+          <div className="text-start my-10 grid gap-y-6">
+            {jobs.map((job) => (
+              <AppliedJobCard key={job.id} job={job} />
+            ))}
+          </div>
+        ) : (
+          <p className="text-center text-red-400 my-10 font-semibold">
+            No data
+          </p>
+        )}
       </div>
     </section>
   );

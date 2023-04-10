@@ -32,6 +32,7 @@
   .banner {
     background-position: bottom left, top right;
     background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 25%;
   }
 
   @media (hover: none) {

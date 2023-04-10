@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/* for mobile device */}
         <div
-          className={`flex-col md:hidden items-start font-semibold rounded gap-y-2 bg-gray-100 border p-4 absolute z-50 top-0 left-0 w-full shadow-lg ${
+          className={`flex-col bg-[#F9F9FF] md:hidden items-start font-semibold rounded gap-y-2 border p-4 absolute z-50 top-0 left-0 w-full shadow-lg ${
             openMenu ? "flex" : "hidden"
           }`}
         >

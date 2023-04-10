@@ -22,7 +22,7 @@ const AppliedJobCard = ({ job }) => {
       <div className="flex flex-col sm:flex-row items-center gap-5">
         <img
           src={companyLogo}
-          className="bg-gray-100 w-60 h-60 object-contain p-4"
+          className="bg-gray-100 w-60 h-60 rounded-md object-contain p-4"
           alt={companyName}
         />
         <div className="space-y-4">

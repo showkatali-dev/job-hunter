@@ -2,6 +2,7 @@ import React from "react";
 import {
   Outlet,
   RouterProvider,
+  ScrollRestoration,
   createBrowserRouter,
   useNavigation,
 } from "react-router-dom";
@@ -26,7 +27,16 @@ const Layout = () => {
       <header>
         <Navbar />
       </header>
-      <main>{navigation.state === "loading" ? <Spinner /> : <Outlet />}</main>
+      <main>
+        {navigation.state === "loading" ? (
+          <Spinner />
+        ) : (
+          <>
+            <ScrollRestoration />
+            <Outlet />
+          </>
+        )}
+      </main>
       <footer>
         <Footer />
       </footer>
